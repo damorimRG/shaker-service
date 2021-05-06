@@ -40,6 +40,7 @@ Instructions to reproduce this tutorial
 
 ---
 9. Create GitHub repository shaker-service
+*** Make sure the repository is public ***
 ---
 
 10. Access the API
