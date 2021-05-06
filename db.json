@@ -1,20 +1,14 @@
 {
-  "runs": [
+  "users": [
     {
-      "project": "https://github.com/apache/dubbo",
-      "sha": "f29663bba655c9451b9db75b94d5cf945f0e7901",
-      "num-tests" : 401,
-      "datetime-epoch": 1620326273,      
-      "flakies": [
-        {
-          "name" : "dubbo-config/dubbo-config-api/src/test/java/org/apache/dubbo/config/event/listener/PublishingServiceDefinitionListenerTest.java",
-	  "ratio" : 0.3
-	},
-	{
-	  "name" : "dubbo-config/dubbo-config-api/src/test/java/org/apache/dubbo/config/event/listener/PublishingServiceDefinitionListenerTest.java",
-	  "ratio" : 0.7
-	}
-      ]
+      "id": 1,
+      "name": "David",
+      "age": 30
+    },
+    {
+      "name": "John",
+      "id": 2,
+      "age": 40
     }
   ]
 }
