@@ -1,12 +1,3 @@
-Instructions to reproduce this tutorial
-
-1. Create directory shaker-service
-2. $> cd shaker-service
-3. $> npm init -y
-4. $> npm install json-server
-5. $> echo "node_modules" > .gitignore
-6. create file db.json with following contents:
-
 {
   "runs": [
     {
@@ -27,21 +18,3 @@ Instructions to reproduce this tutorial
     }
   ]
 }
-
-7. update package.json and update the scripts section as indicated below:
-
-"scripts": {
-  "start": "json-server db.json"
-}
-
-8. Try locally:
-  8.1 $> npm start
-  8.2 access localhost:3000 from the browser
-
----
-9. Create GitHub repository shaker-service
----
-
-10. Access the API
-
-https://my-json-server.typicode.com/damorimRG/shaker-service
