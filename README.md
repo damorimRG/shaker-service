@@ -2,7 +2,7 @@
 
 ## API access
 
-*** Make sure the repository is public ***
+***Make sure the repository is public***
 
 https://my-json-server.typicode.com/damorimRG/shaker-service
 
@@ -19,5 +19,5 @@ $ npm start
 
 # Server URL: localhost:3000
 # Use test.py and test_json.json to test the server
-python3 test.py
+$ python3 test.py
 ```
