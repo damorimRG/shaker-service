@@ -1,48 +1,23 @@
-Instructions to reproduce this tutorial
+# shaker-service
 
-1. Create directory shaker-service
-2. $> cd shaker-service
-3. $> npm init -y
-4. $> npm install json-server
-5. $> echo "node_modules" > .gitignore
-6. create file db.json with following contents:
+## API access
 
-{
-  "runs": [
-    {
-      "project": "https://github.com/apache/dubbo",
-      "sha": "f29663bba655c9451b9db75b94d5cf945f0e7901",
-      "num-tests" : 401,
-      "datetime-epoch": 1620326273,      
-      "flakies": [
-        {
-          "name" : "dubbo-config/dubbo-config-api/src/test/java/org/apache/dubbo/config/event/listener/PublishingServiceDefinitionListenerTest.java",
-	  "ratio" : 0.3
-	},
-	{
-	  "name" : "dubbo-config/dubbo-config-api/src/test/java/org/apache/dubbo/config/event/listener/PublishingServiceDefinitionListenerTest.java",
-	  "ratio" : 0.7
-	}
-      ]
-    }
-  ]
-}
-
-7. update package.json and update the scripts section as indicated below:
-
-"scripts": {
-  "start": "json-server db.json"
-}
-
-8. Try locally:
-  8.1 $> npm start
-  8.2 access localhost:3000 from the browser
-
----
-9. Create GitHub repository shaker-service
 *** Make sure the repository is public ***
----
-
-10. Access the API
 
 https://my-json-server.typicode.com/damorimRG/shaker-service
+
+## Testing locally
+
+```bash
+$ git clone https://github.com/damorimRG/shaker-service
+# ...or, if using SSH authentication
+# git clone git@github.com:damorimRG/shaker-service.git
+$ cd shaker-service
+
+$ npm install
+$ npm start
+
+# Server URL: localhost:3000
+# Use test.py and test_json.json to test the server
+python3 test.py
+```

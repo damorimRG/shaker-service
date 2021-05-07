@@ -1,0 +1,12 @@
+{
+  "id": "test/repo",
+  "ref": "test-ref",
+  "num-tests": 111,
+  "flakies": [
+    {
+      "name": "path/to/module/MyModule.java",
+      "datetime-epoch": 222,
+      "ratio": 0.3
+    }
+  ]
+}
