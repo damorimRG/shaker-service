@@ -1,0 +1,7 @@
+{
+    "repo": "repo1",
+    "module": "path/to/dir/AppTest.java",
+    "function_name": "Test001",
+    "ratio": 0.3,
+    "datetimeEpoch": 123543
+}
