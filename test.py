@@ -3,7 +3,7 @@ import json
 
 # / == %2F
 
-url = "http://0.0.0.0:9001/repos"
+url = "https://my-new-app-denini.herokuapp.com/repos"
 
 with open("test_json.json") as f:
     data = json.load(f)
