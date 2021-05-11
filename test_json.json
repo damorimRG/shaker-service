@@ -1,12 +1,6 @@
 {
-  "id": "test/repo",
+  "name": "test/repo2",
   "ref": "test-ref",
-  "num-tests": 111,
-  "flakies": [
-    {
-      "name": "path/to/module/MyModule.java",
-      "datetime-epoch": 222,
-      "ratio": 0.3
-    }
-  ]
+  "num_tests": 111,
+  "SHA": "asdv2"
 }

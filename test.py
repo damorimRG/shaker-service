@@ -3,9 +3,10 @@ import json
 
 # / == %2F
 
-url = "http://localhost:3000/runs"
+url = "http://0.0.0.0:9001/repos"
 
 with open("test_json.json") as f:
     data = json.load(f)
 
-requests.post(url, json=data)
+resp = requests.post(url, json=data)
+print(resp)
